@@ -5,6 +5,7 @@
         height: 200px;
         @include media-breakpoint-up(xl) {
             height: 300px;
+            color: inherit;
         }
     }
 }
